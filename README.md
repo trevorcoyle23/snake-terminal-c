@@ -1,10 +1,13 @@
-## snake-terminal-c
+# snake-terminal-c
 
-# Dependencies
+## Dependencies
 `$ sudo apt-get install libncurses5-dev libncursesw5-dev`
 
-# Compile
+## Compile
 `$ make`
 
-# Run
+## Run (default conf)
 `$ ./snake`
+
+## Run (custom dimensions)
+`$ ./snake -d [width]x[height]`
